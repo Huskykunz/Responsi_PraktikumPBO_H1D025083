@@ -2,7 +2,7 @@
 
 Repositori ini berisi implementasi sistem **SPBU** berbasis bahasa pemrograman Java untuk memenuhi tugas Responsi Akhir Praktikum Pemrograman Berorientasi Objek.
 
-## 👤 Identitas Mahasiswa
+## Identitas Mahasiswa
 * **Nama:** Angga Farzuqni Rokhman
 * **NIM:** H1D025083
 * **Tema Sistem:** SPBU
@@ -49,11 +49,6 @@ Sistem ini telah mengimplementasikan 10 persyaratan teknis utama PBO dalam domai
 10. **Multiple Interface:** Class `PompaPertamax` mengimplementasikan dua interface sekaligus (`implements Pelayanan, Laporan`).
 
 ---
-
-## 📸 Screenshot Luaran Program
-
-## Screenshot Luaran Program
-
 ## Screenshot Luaran Program
 
 ### 1. Tampilan Menu Awal
