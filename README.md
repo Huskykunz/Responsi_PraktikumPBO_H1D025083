@@ -1,4 +1,4 @@
-# ⛽ Sistem SPBU - Responsi Akhir Pemrograman Berorientasi Objek (PBO)
+# Sistem SPBU - Responsi Akhir Pemrograman Berorientasi Objek (PBO)
 
 Repositori ini berisi implementasi sistem **SPBU** berbasis bahasa pemrograman Java untuk memenuhi tugas Responsi Akhir Praktikum Pemrograman Berorientasi Objek.
 
