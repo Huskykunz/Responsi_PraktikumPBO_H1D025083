@@ -52,7 +52,18 @@ Sistem ini telah mengimplementasikan 10 persyaratan teknis utama PBO dalam domai
 
 ## 📸 Screenshot Luaran Program
 
-*(Ganti teks ini dengan menempelkan/drag-and-drop file screenshot dari terminal saat program dijalankan)*
+## Screenshot Luaran Program
 
-> **Contoh format penambahan gambar di Markdown:**
-> `![Hasil Eksekusi Program](nama_file_screenshot.png)`
+## Screenshot Luaran Program
+
+### 1. Tampilan Menu Awal
+![Menu Awal](Images/Menu_Awal.png)
+*Penjelasan: Tampilan awal saat program dijalankan. Sistem menyapa pengguna ("Selamat datang di SPBU PERTAMINA RACING CORPORATION, Semoga bisa memenuhi keinginan Anda") dan langsung menyuguhkan opsi bensin yang tersedia (Pertalite dan Pertamax).*
+
+### 2. Pengisian Pertalite (Subsidi)
+![Output Pertalite](Images/Output1.png)
+*Penjelasan: Luaran ketika pengguna memilih Pertalite. Sistem menampilkan detail BBM subsidi (RON 90, wajib scan QR), harga per liter (Rp10.000), serta menghitung jumlah bensin yang berhasil diisi berdasarkan uang yang diberikan (Rp90.000 menghasilkan 9.00 Liter).*
+
+### 3. Pengisian Pertamax (Non-Subsidi) & Cetak Struk
+![Output Pertamax](Images/Output2.png)
+*Penjelasan: Luaran ketika pengguna memilih Pertamax. Sesuai dengan spesifikasi program, transaksi non-subsidi (RON 92) ini otomatis memanggil metode `cetakStruk()` dari interface `Laporan` untuk mencetak struk fisik transaksi secara rinci, termasuk kalkulasi liter (5,64 Liter) dan sisa stok tangki pompa yang berkurang secara dinamis (294,36 Liter).*
